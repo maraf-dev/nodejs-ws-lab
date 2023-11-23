@@ -2,12 +2,19 @@ Question 1: What do you see in the browser? When you open another tab and perfor
 the icon on the original page reflects the changes and shows the new position
 
 Question 2: What are some of the differences between TypeScript and JavaScript?
-
+ 1. TypeScript is a superset of JavaScript 
+ 2. TypeScript is strongly typed meaning that you have to declare the type of a variable
+ 3. TypeScript has classes and interfaces javascript does not
 
 Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
 They allow developer to manage complex projects by combining dependencies into a single optimal file that is easy to deploy. ParcelJS comes 
 with some extra tools such as a development server and diagnostics
 
 Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
+CONNECTING (0): The connection is not yet open. The WebSocket is in the process of connecting.
+OPEN (1): The connection is open, and communication is possible. You can send and receive data.
+CLOSING (2): The connection is in the process of closing. This state is entered after the close() method is called.
+CLOSED (3): The connection is closed or couldn't be opened. This is the final state, indicating that the connection is no longer available.
 
 Question 5: What's the link to your github repo?
+https://github.com/maraf-dev/nodejs-ws-lab
